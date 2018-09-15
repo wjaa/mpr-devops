@@ -2,10 +2,10 @@ version: '2'
 
 services:
   db:
-    image: datajoint/mysql
+    image: mpr/mysql
     ports:
       - "3306:3306"
     environment:
-      - MYSQL_ROOT_PASSWORD=simple
+      - MYSQL_ROOT_PASSWORD=753951
     volumes:
       - .var/lib/mysql:/var/lib/mysql
