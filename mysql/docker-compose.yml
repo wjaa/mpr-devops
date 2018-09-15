@@ -8,4 +8,4 @@ services:
     environment:
       - MYSQL_ROOT_PASSWORD=753951
     volumes:
-      - .var/lib/mysql:/var/lib/mysql
+      - /var/lib/mysql:/var/lib/mysql
